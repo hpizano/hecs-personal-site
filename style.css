@@ -1,0 +1,18 @@
+nav {
+    text-align: center;
+
+}
+h1 {
+    text-align: center;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+.ImageMTN {
+    object-fit: scale-down;
+    border: solid 3px black;
+}
+.quote {
+    font-style: italic;
+}
