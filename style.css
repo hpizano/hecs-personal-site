@@ -1,18 +1,65 @@
-nav {
-    text-align: center;
 
-}
+nav{
+    display:flex;
+  }
+  
+  nav > a{
+    flex:1;
+    text-decoration:none;
+    border: solid 0.5px grey;
+    text-align: center;
+    padding: 0.5rem;
+    color: #333333;
+    transition: all 1s;
+  }
+nav > a:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+    transition: all 1s;
+  }
+nav > a:first-child {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+nav > a:last-child {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
 h1 {
     text-align: center;
 }
+h3 {
+    text-align: center;
+}
 body {
+    margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: aquamarine;
+    padding: 50px;
 }
-.ImageMTN {
-    object-fit: scale-down;
-    border: solid 3px black;
-}
+
 .quote {
     font-style: italic;
+}
+img {
+    border: solid 1px red;
+}
+.centerMTN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 20%;
+}
+.amermex{
+    float: right;
+    vertical-align: middle;
+    width: 600px;
+    height: 900px;
+}
+
+.ZooIMG {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   height: 30%;
 }
