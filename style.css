@@ -31,10 +31,9 @@ h3 {
     text-align: center;
 }
 body {
-    margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: aquamarine;
-    padding: 50px;
+    padding: 30px;
 }
 
 .quote {
@@ -47,13 +46,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    scale: 20%;
-}
-.amermex{
-    float: right;
-    vertical-align: middle;
-    width: 600px;
-    height: 900px;
+    scale: 40%;
 }
 
 .ZooIMG {
@@ -61,5 +54,19 @@ img {
    justify-content: center;
    align-items: center;
    width: 30%;
-   height: 30%;
+   height: auto;
+}
+.amermex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: auto;
+}
+body > p > img {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   height: auto
 }
